@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href=/server-side-rendering/",
+    "build": "ng build --prod",
     "build:server": "ng run server-side-rendering:server:production",
     "build:prerender": "npm run build && npm run build:server && npm run prerender",
     "prerender": "ts-node prerender",

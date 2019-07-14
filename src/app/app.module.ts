@@ -8,7 +8,7 @@ import { AppRoutingModule } from './app.routing.module';
     AppComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'server-side-rendering' }),
     AppRoutingModule,
   ],
   providers: [],
